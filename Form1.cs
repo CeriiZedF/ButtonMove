@@ -15,7 +15,6 @@ namespace ButtonMove
             {
                 case Keys.Up:
                     {
-                        if (Screen.PrimaryScreen.WorkingArea.Height > this.Height - 10)
                         this.Top -= 10;
                         break;
                     }
